@@ -1,10 +1,13 @@
 {
-  "name": "@playwright/mcp",
-  "version": "0.0.49",
-  "description": "Playwright Tools for MCP",
+  "name": "@amamf/playwright-mcp",
+  "version": "0.0.49-fork.1",
+  "description": "Playwright Tools for MCP (Fork with --config-json support)",
   "mcpName": "com.microsoft/playwright-mcp",
   "repository": {
     "type": "git",
+    "url": "git+https://github.com/amamf/playwright-mcp.git"
+  },
+  "upstream": {
     "url": "git+https://github.com/microsoft/playwright-mcp.git"
   },
   "homepage": "https://playwright.dev",
@@ -12,8 +15,14 @@
     "node": ">=18"
   },
   "author": {
-    "name": "Microsoft Corporation"
+    "name": "amamf"
   },
+  "contributors": [
+    {
+      "name": "Microsoft Corporation",
+      "url": "https://github.com/microsoft/playwright-mcp"
+    }
+  ],
   "license": "Apache-2.0",
   "scripts": {
     "lint": "npm run update-readme",
@@ -38,8 +47,8 @@
     }
   },
   "dependencies": {
-    "playwright": "1.58.0-alpha-2025-11-30",
-    "playwright-core": "1.58.0-alpha-2025-11-30"
+    "playwright": "github:amamf/playwright",
+    "playwright-core": "github:amamf/playwright"
   },
   "bin": {
     "mcp-server-playwright": "cli.js"
