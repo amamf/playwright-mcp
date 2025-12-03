@@ -1,6 +1,6 @@
 {
   "name": "@amamf/playwright-mcp",
-  "version": "0.0.49-fork.2",
+  "version": "0.0.49-fork.5",
   "description": "Playwright Tools for MCP (Fork with --config-json support)",
   "mcpName": "com.microsoft/playwright-mcp",
   "repository": {
@@ -47,8 +47,8 @@
     }
   },
   "dependencies": {
-    "playwright": "npm:@amamf/playwright@1.58.0-fork.1",
-    "playwright-core": "npm:@amamf/playwright-core@1.58.0-fork.1"
+    "playwright": "npm:@amamf/playwright@latest",
+    "playwright-core": "npm:@amamf/playwright-core@latest"
   },
   "bin": {
     "mcp-server-playwright": "cli.js",
