@@ -296,6 +296,7 @@ Playwright MCP server supports following arguments. They can be provided in the 
   --cdp-header <headers...>             CDP headers to send with the connect
                                         request, multiple can be specified.
   --config <path>                       path to the configuration file.
+  --config-json <json>                  configuration as a JSON string (mutually exclusive with --config).
   --device <device>                     device to emulate, for example: "iPhone
                                         15"
   --executable-path <path>              path to the browser executable.
